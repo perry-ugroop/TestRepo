@@ -5,11 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct", "BasicAcct\BasicAcct.csproj", "{63C6558E-0700-4561-830D-33483D4D6C37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct.Lib", "BasicAcct.Lib\BasicAcct.Lib.csproj", "{E6396484-A97B-4BE4-92CF-5112C220B9B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct.Lib.DataAccess", "BasicAcct.Lib\BasicAcct.Lib.DataAccess.csproj", "{E6396484-A97B-4BE4-92CF-5112C220B9B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct.Tests", "BasicAcct.Tests\BasicAcct.Tests.csproj", "{78D4D913-7152-404C-BFA1-C97F6F5098B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct.Lib.Implementations", "BasicAcct.Lib.Implementations\BasicAcct.Lib.Implementations.csproj", "{C807009D-4099-4E6B-B26A-8AEF75E8E512}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicAcct.Lib.DataAccess.Implementations", "BasicAcct.Lib.Implementations\BasicAcct.Lib.DataAccess.Implementations.csproj", "{C807009D-4099-4E6B-B26A-8AEF75E8E512}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

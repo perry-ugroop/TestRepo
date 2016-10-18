@@ -75,9 +75,9 @@
     <Compile Include="TestSample.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\BasicAcct.Lib\BasicAcct.Lib.csproj">
+    <ProjectReference Include="..\BasicAcct.Lib\BasicAcct.Lib.DataAccess.csproj">
       <Project>{e6396484-a97b-4be4-92cf-5112c220b9b2}</Project>
-      <Name>BasicAcct.Lib</Name>
+      <Name>BasicAcct.Lib.DataAccess</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
