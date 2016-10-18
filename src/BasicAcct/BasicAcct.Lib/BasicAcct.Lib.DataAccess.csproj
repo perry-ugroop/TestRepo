@@ -41,6 +41,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="General\AccountingElementType.cs" />
+    <Compile Include="General\CommandDispatcher.cs" />
+    <Compile Include="General\ICommand.cs" />
+    <Compile Include="General\ICommandDispatcher.cs" />
+    <Compile Include="General\ICommandHandler.cs" />
+    <Compile Include="General\IQuery.cs" />
+    <Compile Include="General\IQueryDispatcher.cs" />
+    <Compile Include="General\IQueryHandler.cs" />
+    <Compile Include="General\QueryDispatcher.cs" />
     <Compile Include="Models\GeneralLedgerAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
