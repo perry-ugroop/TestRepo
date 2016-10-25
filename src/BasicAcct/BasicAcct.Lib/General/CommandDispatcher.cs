@@ -11,6 +11,11 @@ namespace BasicAcct.Lib.General
         public void Execute<TCommand>(TCommand command) 
             where TCommand : ICommand
         {
+           if(command == null)
+            {
+                throw new ArgumentNullException("Missing or null command");
+            }
+
             throw new NotImplementedException();
         }
     }
