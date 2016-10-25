@@ -9,5 +9,13 @@ namespace BasicAcct.Tests.TestClasses
 {
     public class TestCommand : ICommand
     {
+        private List<string> stringList;
+        private string message;
+
+        public TestCommand(List<string> stringList, string message)
+        {
+            this.stringList = stringList;
+            this.message = message;
+        }
     }
 }

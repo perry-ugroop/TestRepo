@@ -73,6 +73,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TestClasses\TestCommand.cs" />
+    <Compile Include="TestClasses\TestCommandHandler.cs" />
     <Compile Include="TestCommandQuery.cs" />
     <Compile Include="TestSample.cs" />
   </ItemGroup>

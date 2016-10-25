@@ -20,5 +20,18 @@ namespace BasicAcct.Tests
             Assert.NotNull(exception);
             Assert.IsType<ArgumentNullException>(exception);
         }
+
+        [Fact]
+        public void CheckIfCommandIsValid()
+        {
+            List<string> stringList = new List<string>();
+            string msg = "This is my message";
+
+            CommandDispatcher cd = new CommandDispatcher();
+            cd.Execute(new TestCommand(stringList, msg));
+
+            Assert.Equal(msg, stringList[0]);
+                  
+        }
     }
 }
